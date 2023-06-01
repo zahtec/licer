@@ -1,0 +1,7 @@
+name: Run Tests
+description: Runs tests using cargo test
+runs:
+  using: composite
+  steps:
+    - run: cargo test -- --test-threads=1
+      shell: bash

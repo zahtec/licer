@@ -1,0 +1,17 @@
+[package]
+name = "licer"
+version = "0.1.0"
+authors = ["Zahtec (https://zahtec.com)"]
+edition = "2021"
+description = "A simple CLI for quickly generating repository licenses"
+homepage = "https://github.com/zahtec/licer"
+repository = "https://github.com/zahtec/licer"
+keywords = ["license", "cli", "git", "nodejs", "cargo.toml", "package.json", "pyproject.toml", "generate"]
+categories = ["command-line-utilities"]
+license = "MIT"
+
+[dependencies]
+colored = "2.0.0"
+json = "0.12.4"
+regex = "1.8.1"
+toml_edit = "0.19.8"

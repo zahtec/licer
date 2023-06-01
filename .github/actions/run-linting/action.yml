@@ -1,0 +1,7 @@
+name: Run Linting
+description: Lints code using cargo clippy
+runs:
+  using: composite
+  steps:
+    - run: cargo clippy
+      shell: bash
