@@ -1,6 +1,6 @@
 [package]
 name = "licer"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Zahtec (https://zahtec.com)"]
 edition = "2021"
 description = "A simple CLI for quickly generating repository licenses"
@@ -11,7 +11,7 @@ categories = ["command-line-utilities"]
 license = "MIT"
 
 [dependencies]
-colored = "2.0.0"
+colored = "2.0.4"
 json = "0.12.4"
-regex = "1.8.1"
-toml_edit = "0.19.8"
+regex = "1.9.0"
+toml_edit = "0.19.12"
